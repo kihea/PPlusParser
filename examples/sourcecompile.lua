@@ -1,4 +1,5 @@
 --[[
+    **No idea if this works right now; worked on roblox but i changed some stuff around to not depend so much on roblox-designed packages and modules**
     Compiles string to grammar:
 
     productionRule -> %token 'literal' ('subexpression' | [regexp])? 
