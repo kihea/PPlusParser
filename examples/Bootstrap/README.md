@@ -1,4 +1,4 @@
-Compiles a legal string to a algorith readable grammar:
+Compiles a legal string to a algorithm readable grammar:
 
 productionRule -> %token 'literal' ('subexpression' | [regexp])? 
 otherRule -> productionRule | %token
