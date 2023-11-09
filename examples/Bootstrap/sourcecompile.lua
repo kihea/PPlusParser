@@ -1,18 +1,3 @@
---[[
-    **No idea if this works right now; worked on roblox but i changed some stuff around to not depend so much on roblox-designed packages and modules**
-    Compiles string to grammar:
-
-    productionRule -> %token 'literal' ('subexpression' | [regexp])? 
-
-    ---->
-
-    {
-        symbols:  [
-            {token: 'token'}, {literal: 'literal'} ...
-        ]
-    }
-    Basically handles the more advanced task of subexpression, optional, compound operators
-]]
 
 local parser = require "parser"
 local lexer = require "lexer"
