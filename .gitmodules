@@ -1,0 +1,3 @@
+[submodule "examples/EarleyCalculator"]
+	path = examples/EarleyCalculator
+	url = https://github.com/kihea/EarleyCalculator
